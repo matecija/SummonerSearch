@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/naviagion_campeones"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:orderInCategory="102"
+            android:title="@string/champions"
+
+            />
+
+        <item
+            android:id="@+id/tienda"
+            android:icon="@android:drawable/ic_menu_add"
+            android:orderInCategory="105"
+            android:title="@string/tienda"
+
+            />
+
+    <item android:id="@+id/action_draft"
+        android:title="@string/draft"/>
+
+    <item android:id="@+id/action_historial"
+        android:title="@string/historial"/>
+
+    <group
+        android:id="@+id/grupomenu1"
+
+        >
+        <item android:id="@+id/action_settings"
+            android:title="@string/opciones"/>
+
+        <item android:id="@+id/notificaciones"
+            android:title="@string/notificaciones"/>
+
+        <item android:id="@+id/action_login"
+            android:title="@string/login"/>
+
+        <item android:id="@+id/action_logout"
+            android:title="@string/logout"/>
+
+    </group>
+
+
+
+</menu>

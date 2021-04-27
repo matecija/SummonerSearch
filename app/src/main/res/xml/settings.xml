@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="reproducirMusica"
+        android:title="@string/musica"
+        android:summary="@string/musica_summary" />
+
+    <ListPreference
+        android:key="idioma"
+        android:title="@string/idioma"
+        android:summary="@string/idioma_summary"
+
+        android:entryValues="@array/lista_idiomas_values"
+        android:entries="@array/lista_idiomas"
+
+        />
+
+
+
+    <EditTextPreference
+        android:key="apikey"
+        android:title="API KEY"
+
+        />
+
+
+</PreferenceScreen>

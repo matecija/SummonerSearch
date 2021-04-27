@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiantelogin"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:theme="@style/TemaLogin">
+
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introducirEmail"/>
+
+
+    <EditText
+        android:layout_marginVertical="5dp"
+        android:id="@+id/txtEmail_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textColor="@color/logincolortexto" />
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_marginVertical="5dp"
+
+        android:id="@+id/tv_contraseña_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introducirContraseña"/>
+
+
+    <EditText
+        android:layout_marginVertical="5dp"
+        android:id="@+id/txtContraseña_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/logincolortexto"
+        android:textSize="20px" />
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_marginVertical="5dp"
+        android:id="@+id/tv_contraseña_registrar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/repetirContraseña"/>
+
+
+    <EditText
+        android:layout_marginVertical="5dp"
+        android:id="@+id/txtContraseña_registrar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/logincolortexto"
+        android:textSize="20px" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginVertical="60dp"
+
+        android:layout_height="wrap_content">
+
+
+        <Button
+
+            android:id="@+id/boton_registrar_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/registrar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline14"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/boton_registrar_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/boton_cancelar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</LinearLayout>

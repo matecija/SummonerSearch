@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">ProyectoMateo</string>
+
+    //Strings para el login
+    <string name="texto_top_login">Bienvenido</string>
+    <string name="texto_olvidar_contraseña">Olvidaste la contraseña?</string>
+    <string name="texto_boton_login">Entrar</string>
+    <string name="texto_crear_cuenta">No tienes cuenta? Créala aqui.</string>
+    <string name="texto_login_password">Contraseña</string>
+    <string name="texto_login_Nombre">Nombre de usuario</string>
+    <string name="opciones">Opciones</string>
+    <string name="tienda">Mapa de Riot</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="musica">Música al iniciar</string>
+    <string name="musica_summary">Escuchar la música de inicio</string>
+    <string name="idioma">Idioma</string>
+    <string name="idioma_summary">Elegir el idioma</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="label_contenido">Contenido de notificacion</string>
+    <string name="label_titulo">Titulo</string>
+    <string name="leido">Leido</string>
+    <string name="imporante">Importante</string>
+    <string name="recordatorio">Recordatorio</string>
+    <string name="noimportante">No importante</string>
+    <string name="label_tipo">Tipo de notificación</string>
+    <string name="menu_crear_notificacion">Crear notificacion</string>
+    <string name="boton_cancelar">Cancelar</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="crear_notificaciones_confirmar">Creando notificacion</string>
+    <string name="notificaciones_editar">Editar notificacion</string>
+    <string name="notificaciones_borrar">Borrar notificacion</string>
+    <string name="noti_borrar_seguro">Seguro que quieres borrar?</string>
+    <string name="noti_eliminar_confirmacion">Se ha borrado con exito</string>
+    <string name="introducirEmail">Introducir el email</string>
+    <string name="registrar">Registrarse</string>
+    <string name="introducirContraseña">Introducir contraseña</string>
+    <string name="repetirContraseña">Repetir la contraseña</string>
+    <string name="champions">Campeones</string>
+    <string name="buscar">Buscar invocador</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="masterypoints">Puntos</string>
+    <string name="summary_key">Introduzca la key para la API de Riot</string>
+    <string name="profavorespere">un momento...</string>
+    <string name="cargando">Cargando</string>
+    <string name="prebusqueda">Buscar a un Invcador...</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="draft">Selector de campeones</string>
+    <string name="historial">Historial</string>
+    <string name="selectChamp">Selecciona un campeón</string>
+
+
+</resources>

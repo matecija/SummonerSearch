@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/opciones"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+
+        />
+
+    <item android:id="@+id/notificaciones"
+        android:title="@string/notificaciones"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom"
+
+        />
+
+
+    <item
+        android:id="@+id/fight"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:orderInCategory="102"
+        android:title="@string/champions"
+        app:showAsAction="ifRoom"
+
+        />
+
+    <item
+        android:id="@+id/tienda"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="105"
+        android:title="@string/tienda"
+        app:showAsAction="ifRoom"
+
+        />
+
+
+
+</menu>

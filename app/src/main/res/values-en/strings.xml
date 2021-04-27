@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">ProyectoMateo</string>
+
+    //Strings para el login
+    <string name="texto_top_login">Welcome</string>
+    <string name="texto_olvidar_contraseña">Forgot Password?</string>
+    <string name="texto_boton_login">Login</string>
+    <string name="texto_crear_cuenta">Dont have an account? Create one.</string>
+    <string name="texto_login_password">Password</string>
+    <string name="texto_login_Nombre">Username</string>
+    <string name="opciones">Options</string>
+    <string name="tienda">Riot maps</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="musica">Music on startup</string>
+    <string name="musica_summary">Reproduce music on application startup</string>
+    <string name="idioma">Language</string>
+    <string name="idioma_summary">Chose Language</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="label_contenido">Notification content</string>
+    <string name="label_titulo">Title</string>
+    <string name="leido">Read</string>
+    <string name="imporante">Important</string>
+    <string name="recordatorio">Reminder</string>
+    <string name="noimportante">Non-important</string>
+    <string name="label_tipo">Notification type</string>
+    <string name="menu_crear_notificacion">Create notification</string>
+    <string name="boton_cancelar">Cancel</string>
+    <string name="boton_guardar">Save</string>
+    <string name="crear_notificaciones_confirmar">Creating notification</string>
+    <string name="notificaciones_editar">Edit notification</string>
+    <string name="notificaciones_borrar">Delete notification</string>
+    <string name="noti_borrar_seguro">Are you sure you want to delete?</string>
+    <string name="noti_eliminar_confirmacion">Delete was successful</string>
+    <string name="introducirEmail">Insert email</string>
+    <string name="registrar">Register</string>
+    <string name="introducirContraseña">Insert password</string>
+    <string name="repetirContraseña">Repeat password</string>
+    <string name="champions">Champions</string>
+    <string name="buscar">Search summoner</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="masterypoints">Mastery points</string>
+    <string name="summary_key">Insert RIOT API KEY</string>
+    <string name="profavorespere">a moment...</string>
+    <string name="cargando">Loading</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="ChampionTheme">
+        <item name="android:textColor">@color/textoChamp</item>
+        <item name="fontFamily">@font/fritz</item>
+        <item name="android:editTextColor">@color/textoChamp</item>
+        <item name="color">@color/textoChamp</item>
+    </style>
+
+    <style name="TemaLogin" parent="AppTheme">
+        <item name="android:textColor">@color/logincolortexto</item>
+        <item name="android:textColorHint">@color/logincolortexto</item>
+        <item name="android:buttonStyle">@style/LoginButton</item>
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item>
+        <item name="background">@drawable/gradiantelogin</item>
+    </style>
+
+
+    <style name="TemaMain" parent="AppTheme">
+        <item name="background">@drawable/gradiantelogin</item>
+
+    </style>
+
+    <style name="LoginButton" parent="android:Widget.Button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">0dip</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/gradientloginbuton</item>
+    </style>
+
+
+    <style name="smallbuttontext" parent="android:Widget.Holo.Button.Borderless">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_gravity">top</item>
+
+    </style>
+
+
+</resources>

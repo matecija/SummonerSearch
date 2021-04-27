@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.DayNight"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activities.GestionFormularioActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_notifs"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_gestion"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <TextView
+            android:id="@+id/label_nombre"
+            android:layout_below="@+id/toolbar_gestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_titulo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label_nombre"
+            android:layout_alignParentLeft="true"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/label_contendio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombre"
+            android:layout_marginTop="20dp"
+            android:text="@string/label_contenido"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/contenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label_contendio"
+            android:layout_alignParentLeft="true"
+            android:ems="10"
+            android:inputType="textMultiLine"></EditText>
+
+        <CheckBox
+            android:id="@+id/leido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contenido"
+            android:layout_marginTop="20dp"
+            android:text="@string/leido" />
+
+        <TextView
+            android:id="@+id/label_tipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/leido"
+            android:layout_marginTop="10dp"
+            android:text="@string/label_tipo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/rg_noti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label_tipo"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:paddingTop="10dp"
+            android:paddingRight="200dp"
+            android:paddingBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/tipo_importante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/imporante" />
+
+            <RadioButton
+                android:id="@+id/tipo_recordatorio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/recordatorio" />
+
+            <RadioButton
+                android:id="@+id/tipo_no_importante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/noimportante" />
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/boton_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg_noti"
+            android:text="@string/boton_cancelar" />
+
+        <Button
+            android:id="@+id/boton_guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/boton_cancelar"
+            android:text="@string/boton_guardar" />
+
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>
